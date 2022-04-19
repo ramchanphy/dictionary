@@ -1,3 +1,4 @@
+# Write a program remove the first key value pair from a nested dictionary.
 dic={
     1:"NAVGURUKUL",
     2:"IN",
