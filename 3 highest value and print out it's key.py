@@ -1,21 +1,50 @@
-dic={"a":50,"b":58,"c":56,"d":40,"e":100,"f":20}
-["e","b","c"]
-x=0
-y=0
-z=0
-k=[]
-for i in dic:
-    for j in dic:
-        if dic[j]>x:
-            x=dic[j]
-            a=j
-        elif dic[j]>y and dic[j]<x:
-            y=dic[j]
-            b=j
-        elif dic[j]>z and dic[j]<y:
-            z=dic[j]
-            c=j
-k.append(a)
-k.append(b)
-k.append(c)
-print(k)
+# dic={"a":50,"b":58,"c":56,"d":40,"e":100,"f":20}
+# ["e","b","c"]
+# x=0
+# y=0
+# z=0
+# k=[]
+# for i in dic:
+#     for j in dic:
+#         if dic[j]>x:
+#             x=dic[j]
+#             a=j
+#         elif dic[j]>y and dic[j]<x:
+#             y=dic[j]
+#             b=j
+#         elif dic[j]>z and dic[j]<y:
+#             z=dic[j]
+#             c=j
+# k.append(a)
+# k.append(b)
+# k.append(c)
+# print(k)
+
+# dt = {'a': 'juice', 'b': 'grill', 'c': 'corn'}
+# for key, value in dt.items():
+#     print(key, value)
+
+def fun(a,b):
+    i=0
+    c=1
+    d=1
+    while i<len(a):
+        c=a[i]*c
+        d=b[i]*d
+        i+=1
+    f=d-c
+    return f
+print(fun([2,2,3],[5,4,1]))
+# a=[2,2,3]
+# b=[4,5,1]
+# i=0
+# c=1
+# d=1
+# while i<len(a):
+#     c=a[i]*c
+#     d=b[i]*d
+#     i+=1
+# f=d-c
+# print(f)
+
+
