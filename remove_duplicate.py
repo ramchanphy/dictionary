@@ -14,5 +14,4 @@ result = {}
 for key,value in dic.items():
     if value not in result.values():
         result[key] = value
-
 print(result)

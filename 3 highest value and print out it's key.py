@@ -24,27 +24,6 @@
 # for key, value in dt.items():
 #     print(key, value)
 
-def fun(a,b):
-    i=0
-    c=1
-    d=1
-    while i<len(a):
-        c=a[i]*c
-        d=b[i]*d
-        i+=1
-    f=d-c
-    return f
-print(fun([2,2,3],[5,4,1]))
-# a=[2,2,3]
-# b=[4,5,1]
-# i=0
-# c=1
-# d=1
-# while i<len(a):
-#     c=a[i]*c
-#     d=b[i]*d
-#     i+=1
-# f=d-c
-# print(f)
+
 
 
