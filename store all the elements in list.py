@@ -11,5 +11,5 @@ for j in e:
     if e[j] not in a:
         a.append(e[j])
 print(a)
-print(e)
+print([e])
 

@@ -3,7 +3,9 @@ a,b,c=dict.keys()
 print(a,b,c)
 x,y,z=dict.values()
 f=x,y,z
+print(f)
 i=0
 while i<len(f):
-    print(x[i],y[i],z[i])
-    i=i+1
+    print(x[i],"",y[i],"",z[i])
+    i=i+1 
+    

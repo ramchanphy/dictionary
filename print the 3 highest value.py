@@ -6,5 +6,3 @@ for i in my_dict:
     a.append(b)
     a.sort()
 print(a[3:])
-    
-

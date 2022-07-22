@@ -9,6 +9,7 @@
 #         if dic[j]>x:
 #             x=dic[j]
 #             a=j
+#             print(j)
 #         elif dic[j]>y and dic[j]<x:
 #             y=dic[j]
 #             b=j
@@ -20,9 +21,9 @@
 # k.append(c)
 # print(k)
 
-# dt = {'a': 'juice', 'b': 'grill', 'c': 'corn'}
-# for key, value in dt.items():
-#     print(key, value)
+
+
+
 
 
 

@@ -2,11 +2,7 @@
 dic={
     1:"NAVGURUKUL",
     2:"IN",
-    3:{
-        "A":"WELCOME",
-        "B":"TO",
-        "C":"DHARAMSALA"
-    }
-}
-del dic[3]["A"]
-print(dic)
+    "name":{"A":{"apple":{"WELCOME":"wel","B":"TO","C":"DHARAMSALA"}}}}
+# del dic[3]["A"]
+# print(dic)
+print(dic["name"]["A"]["apple"]["WELCOME"])
